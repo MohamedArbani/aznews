@@ -18,7 +18,11 @@
 
     <link rel="manifest" href="site.webmanifest" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="apple-touch-icon" href="assets/img/favicon.ico" />
 
     <!-- CSS here -->
@@ -31,6 +35,27 @@
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="canonical" href="/index.html" />
+    <link rel="canonical" href="/about.html" />
+    <link rel="canonical" href="/blog.html" />
+    <link rel="canonical" href="/category.html" />
+    <link rel="canonical" href="/contact.html" />
+    <link rel="canonical" href="/details.html" />
+    <link rel="canonical" href="/elements.html" />
+    <link rel="canonical" href="/single-blog.html" />
+
+    <meta property="og:title" content="AZ News - Fashion Technology Sports" />
+    <meta
+      property="og:description"
+      content="This is a news website providing the latest updates, articles, and resources related to various topics around the world."
+    />
+    <meta
+      property="og:url"
+      content="https://mohamedarbani.github.io/aznews/index.html"
+    />
+    <meta property="og:type" content="website" />
+
     <script
       type="text/javascript"
       src="https://platform-api.sharethis.com/js/sharethis.js#property=654b9c90b768240012ce5fa2&product=sticky-share-buttons&source=platform"
@@ -54,7 +79,140 @@
 
   <body>
     <!-- Header -->
-    <header id="header"></header>
+    <header id="header">
+      <!-- Header Start -->
+      <div class="header-area">
+        <div class="main-header">
+          <div class="header-top black-bg d-none d-md-block">
+            <div class="container">
+              <div class="col-xl-12">
+                <div
+                  class="row d-flex justify-content-between align-items-center"
+                >
+                  <div class="header-info-left">
+                    <ul>
+                      <li>
+                        <img
+                          src="assets/img/icon/weather_icon.webp"
+                          alt="Weather icon"
+                        />34ºc, Sunny
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icon/calendar_icon.webp"
+                          alt="Calendar icon"
+                        />Wednesday, 8th November, 2023
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="header-info-right">
+                    <ul class="header-social">
+                      <li>
+                        <a
+                          href="https://twitter.com/az-news"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://instagram.com/az-news"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://pinterest.com/az-news"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          ><i class="fab fa-pinterest-p"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-mid d-none d-md-block">
+            <div class="container">
+              <div class="row d-flex align-items-center">
+                <!-- Logo -->
+                <div class="col-xl-3 col-lg-3 col-md-3">
+                  <div class="logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo.png" alt="AZ News Logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-9">
+                  <div class="header-banner f-right">
+                    <img
+                      src="assets/img/hero/header_card.jpg"
+                      alt="Header banner"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom header-sticky">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-xl-10 col-lg-10 col-md-12 header-flex">
+                  <!-- sticky -->
+                  <div class="sticky-logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo.png" alt="Sticky logo"
+                    /></a>
+                  </div>
+                  <!-- Main-menu -->
+                  <div class="main-menu d-none d-md-block">
+                    <!-- Added aria-label attribute for accessibility -->
+                    <nav aria-label="Main Menu">
+                      <ul id="navigation">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="category.html">Category</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="latest_news.html">Latest News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li>
+                          <a href="#">Pages</a>
+                          <ul class="submenu">
+                            <li><a href="elements.html">Element</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="single-blog.html">Blog Details</a></li>
+                            <li><a href="details.html">Category Details</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4">
+                  <div class="header-right-btn f-right d-none d-lg-block">
+                    <i class="fas fa-search special-tag"></i>
+                    <div class="search-box">
+                      <form action="#">
+                        <input type="text" placeholder="Search" />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Mobile Menu -->
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-md-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header End -->
+    </header>
     <div class="sharethis-sticky-share-buttons"></div>
 
     <main>
@@ -73,10 +231,12 @@
                         Breaking News: AI is transforming the software industry.
                       </li>
                       <li class="news-item" itemprop="articleBody">
-                        Tech Update: GitHub Copilot is assisting developers in writing better code.
+                        Tech Update: GitHub Copilot is assisting developers in
+                        writing better code.
                       </li>
                       <li class="news-item" itemprop="articleBody">
-                        Daily Tip: Regular code reviews can significantly improve your code quality.
+                        Daily Tip: Regular code reviews can significantly
+                        improve your code quality.
                       </li>
                     </ul>
                   </div>
@@ -85,14 +245,24 @@
             </div>
 
             <!-- H1 title that has more than 18 charcters -->
-            <h1 class="h1-title">AZ News - Discover Music, Fashion, Technology and more News</h1>
+            <h1 class="h1-title">
+              AZ News - Discover Music, Fashion, Technology and more News
+            </h1>
+
+            <h2 class="h2-title">Discover the latest news</h2>
 
             <div class="row">
               <div class="col-lg-8">
                 <!-- Trending Top -->
-                <div class="trending-top mb-30" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trending-top mb-30"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trend-top-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/trending_top.jpg"
                       alt="Trending Top Image"
                       itemprop="image"
@@ -111,17 +281,25 @@
                 <!-- Trending Bottom -->
                 <div class="trending-bottom">
                   <div class="row">
-                    <div class="col-lg-4" itemscope itemtype="http://schema.org/NewsArticle">
+                    <div
+                      class="col-lg-4"
+                      itemscope
+                      itemtype="http://schema.org/NewsArticle"
+                    >
                       <div class="single-bottom mb-35">
                         <div class="trend-bottom-img mb-30">
                           <img
+                            width="fit-content"
+                            height="fit-content"
                             src="assets/img/trending/trending_bottom1.jpg"
                             alt="Trending Bottom Image 1"
                             itemprop="image"
                           />
                         </div>
                         <div class="trend-bottom-cap">
-                          <span class="color1" itemprop="keywords">Lifestyle Art</span>
+                          <span class="color1" itemprop="keywords"
+                            >Lifestyle Art</span
+                          >
                           <h4>
                             <a href="details.html" itemprop="headline">
                               Get the Illusion of Fuller Lashes by “Mascng”.
@@ -130,10 +308,16 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4" itemscope itemtype="http://schema.org/NewsArticle">
+                    <div
+                      class="col-lg-4"
+                      itemscope
+                      itemtype="http://schema.org/NewsArticle"
+                    >
                       <div class="single-bottom mb-35">
                         <div class="trend-bottom-img mb-30">
                           <img
+                            width="fit-content"
+                            height="fit-content"
                             src="assets/img/trending/trending_bottom2.jpg"
                             alt="Trending Bottom Image 2"
                             itemprop="image"
@@ -149,17 +333,25 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4" itemscope itemtype="http://schema.org/NewsArticle">
+                    <div
+                      class="col-lg-4"
+                      itemscope
+                      itemtype="http://schema.org/NewsArticle"
+                    >
                       <div class="single-bottom mb-35">
                         <div class="trend-bottom-img mb-30">
                           <img
+                            width="fit-content"
+                            height="fit-content"
                             src="assets/img/trending/trending_bottom3.jpg"
                             alt="Trending Bottom Image 3"
                             itemprop="image"
                           />
                         </div>
                         <div class="trend-bottom-cap">
-                          <span class="color3" itemprop="keywords">Travels</span>
+                          <span class="color3" itemprop="keywords"
+                            >Travels</span
+                          >
                           <h4>
                             <a href="details.html" itemprop="headline">
                               Welcome To The Best Model Winner Contest
@@ -173,9 +365,15 @@
               </div>
               <!-- Right content -->
               <div class="col-lg-4">
-                <div class="trand-right-single d-flex" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trand-right-single d-flex"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trand-right-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/right1.jpg"
                       alt="Music Image"
                       itemprop="image"
@@ -190,16 +388,24 @@
                     </h4>
                   </div>
                 </div>
-                <div class="trand-right-single d-flex" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trand-right-single d-flex"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trand-right-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/right2.jpg"
                       alt="Beach Vacation Image"
                       itemprop="image"
                     />
                   </div>
                   <div class="trand-right-cap">
-                    <span class="color3" itemprop="keywords">Beach Vacation</span>
+                    <span class="color3" itemprop="keywords"
+                      >Beach Vacation</span
+                    >
                     <h4>
                       <a href="details.html" itemprop="headline">
                         Top 10 beach destinations for summer
@@ -207,9 +413,15 @@
                     </h4>
                   </div>
                 </div>
-                <div class="trand-right-single d-flex" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trand-right-single d-flex"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trand-right-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/right3.jpg"
                       alt="Bike Show Image"
                       itemprop="image"
@@ -224,9 +436,15 @@
                     </h4>
                   </div>
                 </div>
-                <div class="trand-right-single d-flex" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trand-right-single d-flex"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trand-right-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/right4.jpg"
                       alt="Sea Beach Image"
                       itemprop="image"
@@ -241,9 +459,15 @@
                     </h4>
                   </div>
                 </div>
-                <div class="trand-right-single d-flex" itemscope itemtype="http://schema.org/NewsArticle">
+                <div
+                  class="trand-right-single d-flex"
+                  itemscope
+                  itemtype="http://schema.org/NewsArticle"
+                >
                   <div class="trand-right-img">
                     <img
+                      width="fit-content"
+                      height="fit-content"
                       src="assets/img/trending/right5.jpg"
                       alt="Skiing Image"
                       itemprop="image"
@@ -279,9 +503,15 @@
             <div class="row">
               <div class="col-12">
                 <div class="weekly-news-active dot-style d-flex dot-style">
-                  <div class="weekly-single" itemscope itemtype="http://schema.org/NewsArticle">
+                  <div
+                    class="weekly-single"
+                    itemscope
+                    itemtype="http://schema.org/NewsArticle"
+                  >
                     <div class="weekly-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weeklyNews3.jpg"
                         alt="Music News Image"
                         itemprop="image"
@@ -301,16 +531,24 @@
                       </h4>
                     </div>
                   </div>
-                  <div class="weekly-single" itemscope itemtype="http://schema.org/NewsArticle">
+                  <div
+                    class="weekly-single"
+                    itemscope
+                    itemtype="http://schema.org/NewsArticle"
+                  >
                     <div class="weekly-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weeklyNews1.jpg"
                         alt="Lifestyle Art Image"
                         itemprop="image"
                       />
                     </div>
                     <div class="weekly-caption">
-                      <span class="color1" itemprop="keywords">Lifestyle Art</span>
+                      <span class="color1" itemprop="keywords"
+                        >Lifestyle Art</span
+                      >
                       <h4>
                         <a
                           rel="nofollow"
@@ -323,16 +561,24 @@
                       </h4>
                     </div>
                   </div>
-                  <div class="weekly-single" itemscope itemtype="http://schema.org/NewsArticle">
+                  <div
+                    class="weekly-single"
+                    itemscope
+                    itemtype="http://schema.org/NewsArticle"
+                  >
                     <div class="weekly-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weeklyNews2.jpg"
                         alt="Climate Change Protest Image"
                         itemprop="image"
                       />
                     </div>
                     <div class="weekly-caption">
-                      <span class="color1" itemprop="keywords">Environment</span>
+                      <span class="color1" itemprop="keywords"
+                        >Environment</span
+                      >
                       <h4>
                         <a
                           rel="nofollow"
@@ -345,9 +591,15 @@
                       </h4>
                     </div>
                   </div>
-                  <div class="weekly-single" itemscope itemtype="http://schema.org/NewsArticle">
+                  <div
+                    class="weekly-single"
+                    itemscope
+                    itemtype="http://schema.org/NewsArticle"
+                  >
                     <div class="weekly-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/tech_weekly_news.jpg"
                         alt="Tech News Image"
                         itemprop="image"
@@ -394,7 +646,7 @@
                           class="nav-item nav-link active"
                           id="nav-home-tab"
                           data-toggle="tab"
-                          href="#nav-home"
+                          href="/category.html"
                           role="tab"
                           aria-controls="nav-home"
                           aria-selected="true"
@@ -473,6 +725,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews1.jpg"
                                   alt="Festival News Image"
                                 />
@@ -493,6 +747,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews2.jpg"
                                   alt="Fashion News Image"
                                 />
@@ -513,6 +769,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews3.jpg"
                                   alt="Climate Winter News Image"
                                 />
@@ -534,6 +792,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews4.jpg"
                                   alt="Auto Bikes in Beach News Image"
                                 />
@@ -567,6 +827,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews1.jpg"
                                   alt="Festival News Image"
                                 />
@@ -587,6 +849,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews3.jpg"
                                   alt="Climate Winter News Image"
                                 />
@@ -620,6 +884,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews4.jpg"
                                   alt="Auto Bikes in Beach News Image"
                                 />
@@ -653,6 +919,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews2.jpg"
                                   alt="Fashion News Image"
                                 />
@@ -685,6 +953,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/whatNews4.jpg"
                                   alt="Auto Bikes in Beach News Image"
                                 />
@@ -718,6 +988,8 @@
                             <div class="single-what-news mb-100">
                               <div class="what-img">
                                 <img
+                                  width="fit-content"
+                                  height="fit-content"
                                   src="assets/img/news/tech_weekly_news.jpg"
                                   alt="Technology News Image"
                                 />
@@ -755,6 +1027,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-fb.png"
                           alt="Facebook Icon"
                       /></a>
@@ -768,6 +1042,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-tw.png"
                           alt="Twitter Icon"
                       /></a>
@@ -781,6 +1057,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-ins.png"
                           alt="Instagram Icon"
                       /></a>
@@ -794,6 +1072,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-yo.png"
                           alt="Youtube Icon"
                       /></a>
@@ -807,7 +1087,12 @@
               </div>
               <!-- New Poster -->
               <div class="news-poster d-none d-lg-block">
-                <img src="assets/img/news/news_card.jpg" alt="News Poster" />
+                <img
+                  width="fit-content"
+                  height="fit-content"
+                  src="assets/img/news/news_card.jpg"
+                  alt="News Poster"
+                />
               </div>
             </div>
           </div>
@@ -832,6 +1117,8 @@
                   <div class="weekly2-single">
                     <div class="weekly2-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weekly2News1.jpg"
                         alt="Corporate News Image 1"
                       />
@@ -849,6 +1136,8 @@
                   <div class="weekly2-single">
                     <div class="weekly2-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weekly2News2.jpg"
                         alt="Technology News Image"
                       />
@@ -868,6 +1157,8 @@
                   <div class="weekly2-single">
                     <div class="weekly2-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weekly2News3.jpg"
                         alt="Festival News Image 2"
                       />
@@ -885,6 +1176,8 @@
                   <div class="weekly2-single">
                     <div class="weekly2-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weekly2News4.jpg"
                         alt="Work News Image"
                       />
@@ -900,6 +1193,8 @@
                   <div class="weekly2-single">
                     <div class="weekly2-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/weekly2News4.jpg"
                         alt="Corporate News Image 3"
                       />
@@ -929,7 +1224,12 @@
               <!-- Trending Tittle -->
               <div class="about-right mb-90">
                 <div class="about-img">
-                  <img src="assets/img/post/about_heor.jpg" alt="About Image" />
+                  <img
+                    width="fit-content"
+                    height="fit-content"
+                    src="assets/img/post/about_heor.jpg"
+                    alt="About Image"
+                  />
                 </div>
                 <div class="section-tittle mb-30 pt-30">
                   <h3>About Us</h3>
@@ -971,6 +1271,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-fb.png"
                           alt="Facebook Icon"
                       /></a>
@@ -984,6 +1286,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-tw.png"
                           alt="Twitter Icon"
                       /></a>
@@ -997,6 +1301,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-ins.png"
                           alt="Instagram Icon"
                       /></a>
@@ -1010,6 +1316,8 @@
                     <div class="follow-social">
                       <a href="#"
                         ><img
+                          width="fit-content"
+                          height="fit-content"
                           src="assets/img/news/icon-yo.png"
                           alt="Youtube Icon"
                       /></a>
@@ -1023,7 +1331,12 @@
               </div>
               <!-- New Poster -->
               <div class="news-poster d-none d-lg-block">
-                <img src="assets/img/news/news_card.jpg" alt="News Poster" />
+                <img
+                  width="fit-content"
+                  height="fit-content"
+                  src="assets/img/news/news_card.jpg"
+                  alt="News Poster"
+                />
               </div>
             </div>
           </div>
@@ -1049,6 +1362,8 @@
                   <div class="single-recent mb-100">
                     <div class="what-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/recent1.jpg"
                         alt="World Economic News Image"
                       />
@@ -1063,6 +1378,8 @@
                   <div class="single-recent mb-100">
                     <div class="what-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/recent2.jpg"
                         alt="Corporation News Image"
                       />
@@ -1077,6 +1394,8 @@
                   <div class="single-recent mb-100">
                     <div class="what-img">
                       <img
+                        width="fit-content"
+                        height="fit-content"
                         src="assets/img/news/recent3.jpg"
                         alt="Technology News Image"
                       />
@@ -1095,6 +1414,7 @@
                   <div class="single-recent mb-100">
                     <div class="what-img">
                       <img
+                        width="fit-content"
                         height="350px"
                         src="assets/img/news/recent4.jpg"
                         alt="Health News Image"
@@ -1152,7 +1472,175 @@
     </main>
 
     <!-- Footer -->
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <!-- Footer Start-->
+      <div class="footer-area footer-padding fix">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
+              <div class="single-footer-caption">
+                <div class="single-footer-caption">
+                  <!-- logo -->
+                  <div class="footer-logo">
+                    <a href="index.html"
+                      ><img
+                        src="assets/img/logo/logo2_footer.png"
+                        alt="Footer Logo"
+                      />
+                    </a>
+                  </div>
+                  <div class="footer-tittle">
+                    <div class="footer-pera">
+                      <p>
+                        Welcome to our website. We provide the latest news and
+                        updates on various topics such as technology, health,
+                        world economy, and corporations. Stay tuned for more
+                        updates.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- social -->
+                  <div class="footer-social">
+                    <a href="https://twitter.com/az-news"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a href="https://instagram.com/az-news"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a href="https://pinterest.com/az-news"
+                      ><i class="fab fa-pinterest-p"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+              <div class="single-footer-caption mt-60">
+                <div class="footer-tittle">
+                  <h4>Newsletter</h4>
+                  <p>
+                    Subscribe to our newsletter for the latest news and updates
+                    on various topics.
+                  </p>
+                  <!-- Form -->
+                  <div class="footer-form">
+                    <div id="mc_embed_signup">
+                      <form
+                        target="_blank"
+                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                        method="get"
+                        class="subscribe_form relative mail_part"
+                      >
+                        <input
+                          type="email"
+                          name="email"
+                          id="newsletter-form-email"
+                          placeholder="Email Address"
+                          class="placeholder hide-on-focus"
+                          onfocus="this.placeholder = ''"
+                          onblur="this.placeholder = ' Email Address '"
+                        />
+                        <div class="form-icon">
+                          <button
+                            type="submit"
+                            name="submit"
+                            id="newsletter-submit"
+                            class="email_icon newsletter-submit button-contactForm"
+                          >
+                            <img
+                              src="assets/img/logo/form-iocn.png"
+                              alt="Form Icon"
+                            />
+                          </button>
+                        </div>
+                        <div class="mt-10 info"></div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+              <div class="single-footer-caption mb-50 mt-60">
+                <div class="footer-tittle">
+                  <h4>Instagram Feed</h4>
+                </div>
+                <div class="instagram-gellay">
+                  <ul class="insta-feed">
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra1.jpg"
+                          alt="Instagram Post 1"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra2.jpg"
+                          alt="Instagram Post 2"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra3.jpg"
+                          alt="Instagram Post 3"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra4.jpg"
+                          alt="Instagram Post 4"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra5.jpg"
+                          alt="Instagram Post 5"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img
+                          src="assets/img/post/instra6.jpg"
+                          alt="Instagram Post 6"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer-bottom aera -->
+      <div class="footer-bottom-area">
+        <div class="container">
+          <div class="footer-border">
+            <div class="row d-flex align-items-center justify-content-between">
+              <div class="col-lg-6">
+                <div class="footer-copy-right">
+                  <p>Copyright &copy; 2023 All rights reserved</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="footer-menu f-right">
+                  <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End-->
+    </footer>
 
     <!-- JS here -->
 
@@ -1194,14 +1682,5 @@
     <!-- Jquery Plugins, main Jquery -->
     <script src="./assets/js/plugins.js"></script>
     <script src="./assets/js/main.js"></script>
-
-    <!-- Custom JS Scripts -->
-    <script>
-      $(function () {
-        $("header#header").load("components/header.html");
-        $("footer#footer").load("components/footer.html");
-        $("#preloader").load("components/preloader.html");
-      });
-    </script>
   </body>
 </html>
