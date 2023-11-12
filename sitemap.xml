@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://www.az-news.me/index.html</loc>
+        <loc>https://az-news.me/</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/about.html</loc>
+        <loc>https://az-news.me/about</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/blog.html</loc>
+        <loc>https://az-news.me/blog</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/category.html</loc>
+        <loc>https://az-news.me/category</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/contact.html</loc>
+        <loc>https://az-news.me/contact</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/details.html</loc>
+        <loc>https://az-news.me/details</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/elements.html</loc>
+        <loc>https://az-news.me/elements</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.az-news.me/single-blog.html</loc>
+        <loc>https://az-news.me/single-blog</loc>
         <lastmod>2023-11-08T00:00:00+00:00</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
